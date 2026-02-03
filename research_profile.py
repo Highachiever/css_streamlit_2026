@@ -24,7 +24,7 @@ st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
 
 st.image(
-    "C:/Users/user/Downloads/Kayode 2.jpg",
+    "https://drive.google.com/file/d/1vv5bN3Rf0nrcGm_V3nJMa9PYrD5WSFpv/view?usp=drive_link",
     caption="Nature (Pixabay)"
 )
 
@@ -124,4 +124,5 @@ elif data_option == "Weather Data":
 # Add a contact section
 st.header("Contact Information")
 email = "50153463@mynwu.ac.za"
+
 st.write(f"You can reach {name} at {email}.")
